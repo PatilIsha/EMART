@@ -1,0 +1,58 @@
+/* Contact.css */
+.contact-page {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 2rem; /* Padding around the page */
+    background-image: url('/assets/contact.jpg');
+  }
+  
+  .contact-info,
+  .contact-form {
+    background-color: #ffffff; /* White background for sections */
+  }
+  
+  .contact-info h2,
+  .contact-form h2 {
+    font-size: 2rem; /* Font size for headings */
+    margin-bottom: 1rem; /* Space below headings */
+  }
+  
+  .contact-info ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .contact-info li {
+    font-size: 1.2rem; /* Font size for contact info */
+    margin-bottom: 1rem; /* Space between list items */
+  }
+  
+  .contact-info i {
+    color: #007bff; /* Color for icons */
+  }
+  
+  .contact-form {
+    margin-top: 1rem; /* Space between sections */
+  }
+  
+  .contact-form .form-label {
+    font-weight: bold; /* Bold labels */
+  }
+  
+  .contact-form .form-control {
+    border-radius: 0.25rem; /* Rounded corners for form inputs */
+    border: 1px solid #ced4da; /* Border color */
+  }
+  
+  .contact-form .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove default border */
+  }
+  
+  .contact-form .btn-primary:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+  }
+  
+  .contact-form .btn-primary:focus {
+    box-shadow: none; /* Remove focus shadow */
+  }
+  

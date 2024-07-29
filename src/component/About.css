@@ -1,0 +1,65 @@
+/* About.css */
+.about-page {
+  position: relative;
+  background-image: url('/assets/about.jpg'); /* Background image */
+  background-size: cover; /* Cover the whole container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  height: 100vh; /* Full viewport height */
+  color: white; /* Text color for readability */
+}
+
+.overlay {
+  position: absolute;
+  top: 20%; /* Move content down by 20% of the viewport height */
+  left: 0;
+  width: 100%;
+  height: 60%; /* Adjust the height of the overlay */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem; /* Padding around the text */
+}
+
+.container {
+  position: relative;
+  z-index: 1; /* Ensure text is above the overlay */
+  max-width: 800px; /* Limit the maximum width */
+  margin: auto; /* Center align the container */
+}
+
+.bg-light {
+  background-color: #f8f9fa !important; /* Ensure background is light */
+}
+
+
+
+/* Consistent styling for vision and values sections */
+.section {
+  background-color: #343a40; /* Dark background color */
+  color: #f8f9fa; /* Light text color */
+  padding: 2rem; /* Add padding for spacing */
+  border-radius: 0.25rem; /* Rounded corners */
+  margin-bottom: 1.5rem; /* Space between sections */
+  height: 300px; /* Fixed height for consistent size */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.section h2 {
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+.section ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.section li {
+  margin-bottom: 1rem; /* Space between list items */
+}
+
+.section i {
+  color: #28a745; /* Color for the checkmark icon */
+}
